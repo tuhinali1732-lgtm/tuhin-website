@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TuHin Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #080b1c, #172554);
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px 70px;
+}
+
+.hero h4 {
+    color: #60a5fa;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #60a5fa;
+}
+
+.hero p {
+    color: #cbd5e1;
+    line-height: 1.8;
+    max-width: 400px;
+    margin: 0 auto 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255,255,255,0.05);
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.skills {
+    margin-top: 25px;
+}
+
+.skill {
+    display: inline-block;
+    background: #1e40af;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">TuHin.</div>
+    <a href="#about">About Me</a>
+</nav>
+
+<section class="hero">
+    <h4>WELCOME TO MY WORLD</h4>
+
+    <h1>Hello, I'm <span>TuHin</span> 👋</h1>
+
+    <p>
+        I am learning coding and creating
+        beautiful websites using HTML and CSS.
+    </p>
+
+    <a href="#about" class="btn">
+        Explore My Website →
+    </a>
+</section>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Hi! My name is TuHin.
+        I am a beginner web developer.
+        I love learning new things and
+        building creative websites.
+    </p>
+
+    <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Creative Design</span>
+    </div>
+</section>
+
+<footer>
+    © 2026 TuHin. All Rights Reserved.
+</footer>
+
+</body>
+</html>
